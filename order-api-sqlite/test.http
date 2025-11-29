@@ -1,0 +1,12 @@
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+  "numeroPedido": "123",
+  "valorTotal": 150.50,
+  "dataCriacao": "2025-11-29",
+  "items": [
+    { "idItem": 1, "quantidadeItem": 2, "valorItem": 50.00 },
+    { "idItem": 2, "quantidadeItem": 1, "valorItem": 50.50 }
+  ]
+}
